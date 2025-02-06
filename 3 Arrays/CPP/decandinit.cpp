@@ -14,8 +14,6 @@ int main(){
     cout<<array3[2]<<endl;
     cout<<array4<<endl;
     cout<<array5[4]<<endl;
-
-
     
 
 

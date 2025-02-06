@@ -15,7 +15,7 @@ This repository is dedicated to learning and implementing Data Structures and Al
 │── 📁 Binary Search
 │── 📁 Hashing
 │── 📁 Recursion
-│── 📁 
+│── 📁 Searching
 │── 📁 
 │── 📁 
 │── 📁 
@@ -30,11 +30,11 @@ Each folder contains:
 ## 🛠 Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/dsa-learning.git
+   git clone https://github.com/krishnakamalbaishnab/Data-Structures-and-Algorithms.git
    ```
 2. Navigate to the repository:
    ```bash
-   cd dsa-learning
+   cd Data-Structures-and-Algorithms
    ```
 3. Run code files using your preferred compiler or interpreter.
 

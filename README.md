@@ -6,18 +6,20 @@ This repository is dedicated to learning and implementing Data Structures and Al
 ## 📂 Repository Structure
 ```
 📁 DSA-Learning
-│── 📁 Arrays
-│── 📁 LinkedLists
-│── 📁 Stacks
-│── 📁 Queues
-│── 📁 Trees
-│── 📁 Graphs
+│── 📁 C:C++
+│── 📁 Notes
+│── 📁 Python
+│── 📁 Basic Maths
 │── 📁 Sorting
-│── 📁 Searching
-│── 📁 Dynamic Programming
-│── 📁 Bit Manipulation
-│── 📁 Recursion & Backtracking
-│── 📁 Miscellaneous
+│── 📁 Arrays
+│── 📁 Binary Search
+│── 📁 Hashing
+│── 📁 Recursion
+│── 📁 
+│── 📁 
+│── 📁 
+│── 📁 
+│── 📁 
 │── 📄 README.md
 ```
 Each folder contains:

@@ -55,7 +55,6 @@ Each folder contains:
 ## 🤝 Contributing
 Contributions are welcome! Feel free to submit pull requests for improvements or new implementations.
 
-## 📜 License
-This project is licensed under the MIT License.
+
 
 Happy Coding! 🚀

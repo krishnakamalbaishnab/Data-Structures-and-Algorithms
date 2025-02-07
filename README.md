@@ -1,4 +1,4 @@
-# Data Structures and Algorithms (DSA) Learning Repository
+# Data Structures and Algorithms (DSA)
 
 ## 🚀 Overview
 This repository is dedicated to learning and implementing Data Structures and Algorithms (DSA) using various programming languages. It is structured to provide a step-by-step learning approach, covering fundamental concepts, coding problems, and advanced techniques.

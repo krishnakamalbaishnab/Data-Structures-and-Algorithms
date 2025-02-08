@@ -65,3 +65,36 @@ print(index)  # Output: 3
 # Traversing the array
 for elem in arr:
     print(elem, end=" ")  # Output: 10 20 30 40 50 60
+
+
+
+# 3. Implementation Using NumPy (For Large Datasets)
+# For numerical computations, NumPy arrays are highly efficient.
+
+
+import numpy as np
+
+# Creating a NumPy array
+arr = np.array([10, 20, 30, 40, 50])
+
+# Accessing elements
+print(arr[2])  # Output: 30
+
+# Inserting an element
+arr = np.insert(arr, 2, 25)  # Insert 25 at index 2
+print(arr)  # Output: [10 20 25 30 40 50]
+
+# Appending an element
+arr = np.append(arr, 60)
+print(arr)  # Output: [10 20 25 30 40 50 60]
+
+# Deleting an element
+arr = np.delete(arr, np.where(arr == 25))
+print(arr)  # Output: [10 20 30 40 50 60]
+
+# Searching for an element
+index = np.where(arr == 40)[0][0]  # Get index of 40
+print(index)  # Output: 3
+
+# Traversing the array
+print(" ".join(map(str, arr)))  # Output: 10 20 30 40 50 60

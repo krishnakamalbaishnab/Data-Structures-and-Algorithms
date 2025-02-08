@@ -31,3 +31,37 @@ print(index)  # Output: 3
 # Traversing the array
 for elem in arr:
     print(elem, end=" ")  # Output: 10 20 30 40 50 60
+
+
+
+# 2. Implementation Using array Module (Static)
+# The array module provides a more memory-efficient array implementation where all elements must be of the same type.
+
+
+import array
+
+# Creating an integer array
+arr = array.array('i', [10, 20, 30, 40, 50])  # 'i' represents signed integers
+
+# Accessing elements
+print(arr[2])  # Output: 30
+
+# Inserting an element
+arr.insert(2, 25)
+print(arr.tolist())  # Output: [10, 20, 25, 30, 40, 50]
+
+# Appending an element
+arr.append(60)
+print(arr.tolist())  # Output: [10, 20, 25, 30, 40, 50, 60]
+
+# Deleting an element
+arr.remove(25)
+print(arr.tolist())  # Output: [10, 20, 30, 40, 50, 60]
+
+# Searching for an element
+index = arr.index(40)
+print(index)  # Output: 3
+
+# Traversing the array
+for elem in arr:
+    print(elem, end=" ")  # Output: 10 20 30 40 50 60

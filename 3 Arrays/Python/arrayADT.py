@@ -98,3 +98,4 @@ print(index)  # Output: 3
 
 # Traversing the array
 print(" ".join(map(str, arr)))  # Output: 10 20 30 40 50 60
+ 

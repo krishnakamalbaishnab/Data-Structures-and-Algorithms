@@ -6,18 +6,18 @@
 import array
 
 
-# def getElement(array, index):
-# 	if index>=0 and index<=len(array):
-# 		return array[index]
-# 	else:
-# 		return IndexError("Index out of range!")
+def getElement(array, index):
+	if index>=0 and index<=len(array):
+		return array[index]
+	else:
+		return IndexError("Index out of range!")
 
 
 
 
-# array1 = array.array('i', [1, 2, 3, 9, 6, 4, 3, 11, 10])
+array1 = array.array('i', [1, 2, 3, 9, 6, 4, 3, 11, 10])
 
-# print(getElement(array1,4))
+print(getElement(array1,4))
 
 
 
@@ -39,6 +39,7 @@ print(array1)
 
 print(setElements(array1,4,99))
 # print(array1)
+
 
 
 

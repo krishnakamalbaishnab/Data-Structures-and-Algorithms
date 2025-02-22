@@ -17,5 +17,3 @@ def findAvg(arr):
 array1 = array.array('i', [1,2,3,5,7,4,6])
 
 print(findAvg(array1))
-
-

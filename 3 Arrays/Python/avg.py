@@ -9,6 +9,7 @@ def findAvg(arr):
 	for i in range(len(arr)):
 		sum_ofArray = sum_ofArray +arr[i]
 		avg = sum_ofArray/len(arr)
+	print("The Sum of the array is : ", sum_ofArray)
 
 	return avg
 
@@ -16,4 +17,4 @@ def findAvg(arr):
 
 array1 = array.array('i', [1,2,3,5,7,4,6])
 
-print(findAvg(array1))
+print("The average of the array is : ", findAvg(array1))

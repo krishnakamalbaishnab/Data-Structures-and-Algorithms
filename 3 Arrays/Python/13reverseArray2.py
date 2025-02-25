@@ -18,3 +18,24 @@ def reverse_array(arr):
 arr = [6, 9, 8, 7, 5, 3, 1, 10, 12, 14]
 reversed_arr = reverse_array(arr)
 print(reversed_arr)
+
+
+
+
+#using foor loop two pointers
+
+
+def reverse_array(arr):
+    n = len(arr)
+    
+    # Only need to iterate through half the array
+    for i in range(n // 2):
+        # Swap elements equidistant from the ends
+        arr[i], arr[n-1-i] = arr[n-1-i], arr[i]
+    
+    return arr
+
+# Test with the given array
+arr = [6, 9, 8, 7, 5, 3, 1, 10, 12, 14]
+reversed_arr = reverse_array(arr)
+print(reversed_arr)

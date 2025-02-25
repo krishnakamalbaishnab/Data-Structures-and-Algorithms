@@ -1,6 +1,6 @@
 
 
-
+#Reverse an array using an auxiliary array:
 
 import array
 

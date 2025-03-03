@@ -31,3 +31,10 @@ Tab: 9
 Exclamation Mark (!): 33
 At Symbol (@): 64
 Hash (#): 35
+
+
+
+Method	Time Complexity	Space Complexity	Notes
+len(string)	O(1)	O(1)	Best approach (internally stored)
+for loop	O(n)	O(1)	Iterates through the string
+while loop	O(n)	O(1)	Similar to for loop

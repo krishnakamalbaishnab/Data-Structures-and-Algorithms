@@ -12,3 +12,8 @@ int main() {
     cout << "Length of the string: " << count << endl;
     return 0;
 }
+
+
+
+// ✅Time Complexity: O(n)
+// ✅ Space Complexity: O(1)

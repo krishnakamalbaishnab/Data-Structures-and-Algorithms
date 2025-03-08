@@ -33,8 +33,8 @@ print(is_palindrome("python"))  # Output: False
 # ✅ Space Complexity: O(1) (no extra memory used)
 
 # 🔹 Method 3: Ignoring Case & Non-Alphanumeric Characters
-
-import re
+ 
+import re   #re regular expressions
 
 def is_palindrome(s):
     s = re.sub(r'[^a-zA-Z0-9]', '', s).lower()  # Remove non-alphanumeric & convert to lowercase

@@ -49,6 +49,7 @@ Each folder contains:
 - [GeeksforGeeks DSA](https://www.geeksforgeeks.org/data-structures/)
 - [Leetcode](https://leetcode.com/)
 - [Codeforces](https://codeforces.com/)
+- [AlgoMaster](https://algomaster.io/practice/dsa-patterns)
 
 ## 🤝 Contributing
 Contributions are welcome! Feel free to submit pull requests for improvements or new implementations.

@@ -15,6 +15,7 @@ This repository is dedicated to learning and implementing Data Structures and Al
 │── 📁 Binary Search
 │── 📁 Hashing
 │── 📁 Recursion
+│── 📁 String
 │── 📄 README.md
 ```
 Each folder contains:

@@ -2,6 +2,8 @@
 
 #1 Using == operator
 
+# ✅ Best for exact matches (case-sensitive).
+
 def compare_string(str1, str2):
 	if str1 == str2:
 		return "Strings are equal"
@@ -49,4 +51,88 @@ print(compare_string("krishna", "krishna")) # euqal
 
 
 #2 Using lexiographical operator
+
+
+
+# ✅ Best for sorting, string ordering, or dictionary comparisons.
+
+
+def compare_strings_lexicographically(s1, s2):
+    if s1 > s2:
+        return f'"{s1}" is greater than "{s2}"'
+    elif s1 < s2:
+        return f'"{s1}" is smaller than "{s2}"'
+    else:
+        return "Strings are equal"
+
+# Test Cases
+print(compare_strings_lexicographically("apple", "banana"))  # Output: "apple" is smaller than "banana"
+print(compare_strings_lexicographically("zebra", "lion"))  # Output: "zebra" is greater than "lion"
+print(compare_strings_lexicographically("hello", "hello"))  # Output: Strings are equal
+
+
+
+
+
+#3 Method 3: Using Manual ASCII Comparison (Like strcmp() in C++)
+
+
+# ✅ Best if we want a manual comparison like strcmp() in C++
+
+def compare_strings_ascii(s1, s2):
+    min_length = min(len(s1), len(s2))
+    
+    for i in range(min_length):
+        if ord(s1[i]) > ord(s2[i]):
+            return f'"{s1}" is greater than "{s2}"'
+        elif ord(s1[i]) < ord(s2[i]):
+            return f'"{s1}" is smaller than "{s2}"'
+
+    if len(s1) > len(s2):
+        return f'"{s1}" is greater than "{s2}"'
+    elif len(s1) < len(s2):
+        return f'"{s1}" is smaller than "{s2}"'
+    else:
+        return "Strings are equal"
+
+# Test Cases
+print(compare_strings_ascii("hello", "hella"))  # Output: "hello" is greater than "hella"
+print(compare_strings_ascii("cat", "cats"))  # Output: "cat" is smaller than "cats"
+print(compare_strings_ascii("data", "data"))  # Output: Strings are equal
+
+
+
+
+
+
+
+
+# 🔹 Summary Table
+# Method			Use Case									Complexity
+
+# ==				Exact match										O(n)
+# <, >				Lexicographical order							O(n)
+# ASCII (ord)		Manual character-wise comparison				O(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

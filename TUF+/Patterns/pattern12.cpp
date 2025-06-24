@@ -1,3 +1,7 @@
+// 1    1
+// 12  21
+// 123321
+
 #include <iostream>
 using namespace std;
 

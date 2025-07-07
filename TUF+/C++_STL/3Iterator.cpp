@@ -27,3 +27,17 @@ int main()
     }
     return 0;
 }
+// Erase
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    vector<int> v = {10, 20, 30};
+    v.erase(v.begin() + 1);
+    for (int i : v)
+    {
+        cout << i << " ";
+    }
+    return 0;
+}

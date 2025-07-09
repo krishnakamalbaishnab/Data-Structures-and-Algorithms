@@ -1,6 +1,14 @@
 // set stores only unique elements
 // In an std::set, elements are sorted and not indexed, so there's no direct concept of a "position" or "index" like in a vector.
 
+// operations of set
+// push - emplace
+// find
+// erase
+// count
+// lower_bound
+// upper_bound
+
 #include <bits/stdc++.h>
 using namespace std;
 

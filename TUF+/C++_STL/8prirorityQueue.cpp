@@ -29,3 +29,7 @@ int main()
 }
 
 // output : 18 15 10 4 1
+
+// if we want to make it descending we need to use the following syntax
+
+// priority_queue<int, vector<int>, greater<int>> pq1;

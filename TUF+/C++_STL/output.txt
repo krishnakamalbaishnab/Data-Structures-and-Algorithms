@@ -1,24 +1,5 @@
-Contents of multiset after insertion:
-5 5 5 6 7 9 
-
-Count of 5: 3
-Count of 6: 1
-
-Element 5 found at address: 0x13f6060a0
-
-After erasing one occurrence of 5:
-5 5 6 7 9 
-
-After erasing all occurrences of 5:
-6 7 9 
-
-Lower bound of 6: 6
-Upper bound of 6: 7
-
-Equal range of 7:
-7 
-
-Size of multiset: 3
-Is multiset empty? No
-
-After clearing, is multiset empty? Yes
+12
+109
+14
+16
+10

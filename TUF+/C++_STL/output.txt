@@ -1,14 +1,5 @@
-Contents of unordered_set after insertion:
-12 109 14 16 10 
-
-Element 16 found in set.
-Count of 10: 1
-Count of 99: 0
-
-After erasing 10:
-12 109 14 16 
-
-Size of unordered_set: 4
-Is unordered_set empty? No
-
-After clearing, is unordered_set empty? Yes
+1 -> abc
+2 -> dj
+3 -> raj
+4 -> kkb
+5 -> Rocky

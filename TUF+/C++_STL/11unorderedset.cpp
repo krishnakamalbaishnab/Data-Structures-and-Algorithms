@@ -9,7 +9,7 @@ void explainUnorderedSet()
 
     // ✅ 1. Insert elements (duplicates are automatically ignored)
     uset.insert(10);
-    uset.insert(10); // ignored
+    uset.insert(10); // ignoreds
     uset.insert(16);
     uset.insert(14);
     uset.insert(109);
@@ -59,3 +59,13 @@ int main()
     explainUnorderedSet();
     return 0;
 }
+
+// | Operation | Description | Time Complexity(Avg) |
+//     | -- -- -- -- -- -| -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --| -- -- -- -- -- -- -- -- -- -- -|
+//     | `insert(x)` | Adds unique element | O(1) |
+//     | `find(x)` | Returns iterator to x, or `end()` | O(1) |
+//     | `count(x)` | Returns 0 or 1(no duplicates allowed) | O(1) |
+//     | `erase(x)` | Removes the element `x` | O(1) |
+//     | `size()` | Number of elements | O(1) |
+//     | `empty()` | Checks if set is empty | O(1) |
+//     | `clear()` | Removes all elements | O(n) |

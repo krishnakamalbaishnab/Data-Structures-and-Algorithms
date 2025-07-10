@@ -1,20 +1,6 @@
-Multimap contents:
-1 -> apple
-2 -> banana
-2 -> blueberry
-3 -> cherry
-4 -> date
-4 -> dragonfruit
-4 -> dewberry
-
-Number of values for key 4: 3
-First value with key 2: banana
-
-All values with key 4:
-4 => date
-4 => dragonfruit
-4 => dewberry
-
-Size after erasing: 3
-Is multimap empty? No
-After clearing, is multimap empty? Yes
+0
+1
+2
+4
+7
+9

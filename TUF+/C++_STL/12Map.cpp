@@ -65,3 +65,14 @@ int main()
     explainMap();
     return 0;
 }
+
+// | Operation            | Description                     | Complexity |
+// | -------------------- | ------------------------------- | ---------- |
+// | `m[key] = val`       | Insert or update value          | O(log n)   |
+// | `insert({key, val})` | Insert only (no overwrite)      | O(log n)   |
+// | `find(key)`          | Returns iterator to key         | O(log n)   |
+// | `count(key)`         | Returns 1 if key exists, else 0 | O(log n)   |
+// | `erase(key)`         | Removes key and value           | O(log n)   |
+// | `size()`             | Returns number of elements      | O(1)       |
+// | `empty()`            | Checks if map is empty          | O(1)       |
+// | `clear()`            | Removes all elements            | O(n)       |

@@ -1,4 +1,1 @@
-Maximum element: 25
-Minimum element: 5
-Index of max element: 3
-Index of min element: 2
+2 raised to the power 5 is 32

@@ -1,1 +1,1 @@
-5
+Array is not sorted.

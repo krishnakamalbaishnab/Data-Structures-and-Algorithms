@@ -23,7 +23,7 @@ Welcome to the **DSA Practice Hub** – a comprehensive repository to learn and 
 
 Each topic folder contains:
 - ✅ **Concepts & Notes**
-- ✅ **Code Implementations (C++ / Python)**
+- ✅ **Code Implementations (C++)**
 - ✅ **Practice Problems** from LeetCode, GFG, Codeforces, etc.
 
 ---
